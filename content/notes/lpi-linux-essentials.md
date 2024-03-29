@@ -1,8 +1,5 @@
 ---
 title: Linux Essentials
-date: 2021-11-21T12:12:25.364Z
-thumbnail: 'https://rishabincloud.s3.amazonaws.com/CloudNotes/LPILinux.png'
-topic: linux
 ---
 # Linux essentials
 
