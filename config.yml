@@ -41,7 +41,7 @@ params:
         imageUrl: "/images/profile.jpg"
         imageTitle: Anvay Buch
         imageWidth: 300
-        imageHeight: 200
+        imageHeight: 350
         buttons:
             - name: Resume
               url: "/images/AnvayResume.docx"
