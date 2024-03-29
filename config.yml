@@ -11,21 +11,13 @@ menu:
         - name: About
           url: about/
           weight: 30
-        - name: Blog
-          url: blog/
-          weight: 20
         # - name: Categories
         #   url: categories/
         #   weight: 10
         - name: Notes
           url: notes/
         #  weight: 10
-        - name: Public Speaking
-          url: publicspeaking/
-        - name: Podcast
-          url: podcast/
-        - name: Uses
-          url: uses/
+     
 
 
 params:
