@@ -40,7 +40,7 @@ params:
         description: Ula
         imageUrl: "/images/profile.jpg"
         imageTitle: Anvay Buch
-        imageWidth: 200
+        imageWidth: 300
         imageHeight: 200
         buttons:
             - name: Resume
