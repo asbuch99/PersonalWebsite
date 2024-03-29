@@ -47,16 +47,12 @@ params:
         title: Anvay Buch 👋
         description: Ula
         imageUrl: "/images/profile.jpg"
-        imageTitle: AnvayBuch
+        imageTitle: Anvay Buch
         imageWidth: 200
         imageHeight: 200
         buttons:
-            - name: Don't click me
+            - name: Portfolio
               url: https://www.youtube.com/@AnvayBuch7
-            - name: Checkout the DevOps Guide
-              url: https://thedevops.guide
-            - name: Subscribe to my newsletter
-              url: https://AnvayBuch.substack.com/
     mainSections:
       - articles
 
@@ -64,15 +60,15 @@ params:
         - name: github
           url: "https://github.com/asbuch99"
         - name: linkedin
-          url: "https://www.linkedin.com/in/AnvayBuch7/"
+          url: "https://www.linkedin.com/in/anvay-buch/"
 
     # change favicon in images folder (icon for web tab)
-    assets:
-          favicon: "/images/favicon.ico"
-          favicon16x16: "/images/favicon-16x16.png"
-          favicon32x32: "/images/favicon-32x32.png"
-          apple_touch_icon: "/images/apple-touch-icon.png"
-          safari_pinned_tab: "/images/apple-touch-icon.png"
+    #assets:
+     #     favicon: "/images/favicon.ico"
+      #    favicon16x16: "/images/favicon-16x16.png"
+       #   favicon32x32: "/images/favicon-32x32.png"
+        #  apple_touch_icon: "/images/apple-touch-icon.png"
+         # safari_pinned_tab: "/images/apple-touch-icon.png"
 
 
 
