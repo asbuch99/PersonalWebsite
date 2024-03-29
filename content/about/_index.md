@@ -4,16 +4,9 @@ type: list
 ---
 
 
-I am a Developer Evangelist at Twilio, co-author of Learn to Cloud, co-host of Random Cloud Chats podcast, AWS Community Builder, and YouTuber. Passionate about helping people get into cloud and sharing my learnings in cloud, DevOps and now DevRel.
+I am a Technical Support Engineer at UKG and an aspiring Security Professional. Passionate about learning about Cloud Technologies/DevOps & their intersection with the Security space.
 
-If you have a short message or question, drop a message via [LinkedIn](https://www.linkedin.com/in/rishabkumar7/).
+If you have a short message or question, drop a message via [LinkedIn](https://www.linkedin.com/in/anvay-buch/).
 
-## YouTube
+## Resume
 
-A day in my life:
-
-{{< youtube DY2gJhJaQfI >}}
-
-My career journey:
-
-{{< youtube JyBipEz334A >}}

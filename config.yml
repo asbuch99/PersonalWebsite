@@ -43,8 +43,8 @@ params:
         imageWidth: 200
         imageHeight: 200
         buttons:
-            - name: Portfolio
-              url: https://www.youtube.com/@AnvayBuch7
+            - name: Resume
+              url: "/images/AnvayResume.docx"
     mainSections:
       - articles
 
