@@ -1,5 +1,6 @@
 ---
 Title: Air Gapped Raspberry Pi based Linux log in
+menu: "main"
 ---
 
 
