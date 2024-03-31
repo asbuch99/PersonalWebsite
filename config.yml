@@ -1,6 +1,6 @@
 baseURL: https://anvaybuch.com
 title: Anvay Buch
-paginate: 6
+paginate: 10
 theme: charlolamode
 googleAnalytics: "UA-141527833-1"
 
