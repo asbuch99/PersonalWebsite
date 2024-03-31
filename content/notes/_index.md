@@ -1,5 +1,6 @@
 ---
 title: Cloud Notes
+menu: "main"
 ---
 
 ## Credits
