@@ -1,7 +1,6 @@
 ---
 Title: About me
 type: list
-menu: "main"
 ---
 
 
