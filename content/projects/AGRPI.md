@@ -2,9 +2,12 @@
 Title: Air Gapped Raspberry Pi based Linux log in
 ---
 
+
 # Facial Recognition Project
 
-This project is aimed at developing a air gapped facial recognition system using Python and various libraries. It involves the following tasks:
+This project is aimed at developing a air gapped facial recognition system using Python and various libraries. It involves the following tasks:  
+It can be found at [Github for Air Gapped Facial Recognition](https://github.com/asbuch99/FacialRecogProj/)  
+A downloadable report for this project can be found here[Report](https://github.com/asbuch99/FacialRecogProj/blob/main/Project%20Report.pdf)
 
 ## Objectives:
 
@@ -12,6 +15,7 @@ This project is aimed at developing a air gapped facial recognition system using
 2. Training a model to recognize faces.
 3. Integrating the trained model into a real-time application.
 4. Deploying the application to various platforms.
+5. Do all this while ensuring the log in module is secure by keeping it air gapped
 
 ## Project Structure:
 
@@ -30,7 +34,8 @@ The project is organized as follows:
 
 ### Explanation of etcprof.sh snippet:
 
-The provided snippet is a part of the `etcprof.sh` script, and it performs the following actions:
+The provided snippet is a part of the `etcprof.sh` script, and it performs the following  
+actions:
 
 ```bash
 if [ "`id -u -n`" == "anvay" ]; then
@@ -46,26 +51,26 @@ if [ "`id -u -n`" == "anvay" ]; then
 fi
 ```
 
-Explanation:
-The if statement checks if the current user executing the script is "anvay". It uses the id -u -n command to get the current username.
 
-If the user is "anvay", it proceeds with the subsequent commands.
+- The if statement checks if the current user executing the script is "anvay". It uses the id -u -n command to get the current username.
 
-Inside the if block, it attempts to SSH into the tacwin account on the host rpi4.local.
+- If the user is "anvay", it proceeds with the subsequent commands.
 
-The 2> /dev/null redirects the standard error output to /dev/null to suppress any error messages.
+- Inside the if block, it attempts to SSH into the tacwin account on the host rpi4.local.
 
-The output of the SSH command is piped to grep -i "anvay" to search for occurrences of the username "anvay" in the SSH output.
+- The 2> /dev/null redirects the standard error output to /dev/null to suppress any error messages.
 
-The > /dev/null at the end of the pipeline redirects the output of grep to /dev/null to discard it.
+- The output of the SSH command is piped to grep -i "anvay" to search for occurrences of the username "anvay" in the SSH output.
 
-The if [ "$?" -ne "0" ] condition checks if the exit status of the previous command (grep) is not equal to 0, indicating a failure.
+- The > /dev/null at the end of the pipeline redirects the output of grep to /dev/null to discard it.
 
-If the SSH command fails to find "anvay" in the output, it logs a "login failed" message along with the timestamp to /var/attempt_log.log file.
+- The if [ "$?" -ne "0" ] condition checks if the exit status of the previous command (grep) is not equal to 0, indicating a failure.
 
-If the SSH command is successful, it logs a "login successful" message along with the timestamp to the same log file.
+- If the SSH command fails to find "anvay" in the output, it logs a "login failed" message along with the timestamp to /var/attempt_log.log file.
 
-The exit 1 statement terminates the script with an exit code of 1, indicating a failure.
+- If the SSH command is successful, it logs a "login successful" message along with the timestamp to the same log file.
+
+- The exit 1 statement terminates the script with an exit code of 1, indicating a failure.
 
 
 
