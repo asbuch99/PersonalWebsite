@@ -5,9 +5,10 @@ Title: Air Gapped Raspberry Pi based Linux log in
 
 # Facial Recognition Project
 
-This project is aimed at developing a air gapped facial recognition system using Python and various libraries. It involves the following tasks:  
-It can be found at [Github for Air Gapped Facial Recognition](https://github.com/asbuch99/FacialRecogProj/)  
-A downloadable report for this project can be found here[Report](https://github.com/asbuch99/FacialRecogProj/blob/main/Project%20Report.pdf)
+This project is aimed at developing a air gapped facial recognition system using Python and various libraries.  
+  
+It can be found at: [Github for Air Gapped Facial Recognition](https://github.com/asbuch99/FacialRecogProj/)  
+A downloadable report for this project can be found here: [Report](https://github.com/asbuch99/FacialRecogProj/blob/main/Project%20Report.pdf)
 
 ## Objectives:
 
