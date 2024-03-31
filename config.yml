@@ -21,8 +21,8 @@ menu:
 
 
 params:
-    author: Anvay Buch
-    description: Hi, I am Anvay Buch, a Technical Support Engineer at UKG and Cloud & Security enthusiast.
+    #author: Anvay Buch
+    #description: Hi, I am Anvay Buch, a Technical Support Engineer at UKG and Cloud & Security enthusiast.
 
 
     defaultTheme: auto
