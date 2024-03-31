@@ -1,4 +1,4 @@
-baseURL: https://AnvayBuch.com
+baseURL: https://anvaybuch.com
 title: Anvay Buch
 paginate: 6
 theme: charlolamode
@@ -13,9 +13,10 @@ menu:
           weight: 30
         - name: Projects
           url: projects/
+          weight: 20
         - name: Notes
           url: notes/
-        #  weight: 10
+          weight: 10
      
 
 
