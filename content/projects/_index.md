@@ -1,5 +1,6 @@
 ---
-Title: Security Projects
+title: "Projects"
+menu: "main"
 ---
 
 
