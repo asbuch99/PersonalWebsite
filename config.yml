@@ -27,11 +27,11 @@ params:
 
     defaultTheme: auto
     # disableThemeToggle: true
-    ShowShareButtons: true
-    ShowReadingTime: true
-    displayFullLangName: true
-    ShowBreadCrumbs: true
-    ShowCodeCopyButtons: true
+    #ShowShareButtons: true
+    #ShowReadingTime: true
+    #displayFullLangName: true
+    #ShowBreadCrumbs: true
+    #ShowCodeCopyButtons: true
     ShowToc: true
 
     profileMode:
