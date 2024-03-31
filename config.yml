@@ -11,9 +11,8 @@ menu:
         - name: About
           url: about/
           weight: 30
-        # - name: Categories
-        #   url: categories/
-        #   weight: 10
+        - name: Projects
+          url: projects/
         - name: Notes
           url: notes/
         #  weight: 10
