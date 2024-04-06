@@ -67,6 +67,44 @@ def scan_directory(directory):
 ### OWASP Top 10 Patterns
 The `OWASP_TOP_10` dictionary contains regular expressions representing patterns for various OWASP Top 10 vulnerabilities.
 
+```python
+OWASP_TOP_10 = {
+    "Injection": [
+        r"(?i)\b(?:select|insert|update|delete|drop|alter|create)\b[^;]*\b(?:from|into|where)\b",
+        r"(?i)\b(?:exec|eval|system|os\.popen|subprocess\.call)\b",
+        r"(?i)\b(?:<\?php|\$_(GET|POST|REQUEST|COOKIE))\b"
+    ],
+    "Broken Authentication": [
+        r"(?i)\b(?:password|passwd|admin|login)\b"
+    ],
+    "Sensitive Data Exposure": [
+        r"(?i)\b(?:apikey|secretkey|password|credentials)\b"
+    ],
+    "XML External Entities (XXE)": [
+        r"(?i)\b<!ENTITY\b"
+    ],
+    "Broken Access Control": [
+        r"(?i)\b(?:chmod|chown|chmod777)\b"
+    ],
+    "Security Misconfiguration": [
+        r"(?i)\b(?:debug=True|verbose=True)\b"
+    ],
+    "Cross-Site Scripting (XSS)": [
+        r"(?i)<\s*script\b[^>]*>[^<]*<\s*/\s*script\s*>",
+        r"(?i)\b(?:alert|document\.write|eval\(|javascript:|<\s*img\b[^>]*\sonerror\b)",
+    ],
+    "Insecure Deserialization": [
+        r"(?i)\b(?:pickle|cPickle|unpickle|pyYAML|yaml\.load)\b"
+    ],
+    "Using Components with Known Vulnerabilities": [
+        r"(?i)\b(?:django|flask|rails|struts|phpmyadmin)\b"
+    ],
+    "Insufficient Logging and Monitoring": [
+        r"(?i)\b(?:print|console\.log)\b"
+    ]
+}
+```
+
 ### Example Usage
 An example usage of the scanner is demonstrated, where the directory `"E:/Repos/VulnerabilityScanner"` is scanned for vulnerabilities, and the results are printed.
 
