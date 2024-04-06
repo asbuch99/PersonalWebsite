@@ -7,6 +7,8 @@ Title: GUI RegEx based Vulnerability Scanner
 ## Overview
 The Vulnerability Scanner is a tool designed to detect common security vulnerabilities in web applications. It utilizes regular expressions to search for patterns indicative of vulnerabilities across files within a specified directory.
 
+It can be found at: [Github for GUI RegEx based Vulnerability Scanner](https://github.com/asbuch99/VulnerabilityScanner)  
+
 ## Scope
 The scope of this project encompasses:
 - Implementing detection mechanisms for OWASP Top 10 vulnerabilities.
