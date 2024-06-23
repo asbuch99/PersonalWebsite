@@ -42,9 +42,9 @@ params:
         imageTitle: Anvay Buch
         imageWidth: 350
         imageHeight: 300
-        buttons:
-            - name: Resume
-              url: "/images/AnvayResume.docx"
+       # buttons:
+        #    - name: Resume
+         #s     url: "/images/AnvayResume.docx"
     mainSections:
       - articles
 
