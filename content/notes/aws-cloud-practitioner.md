@@ -1,5 +1,5 @@
 ---
-title: AWS Certified Cloud Practitioner
+title: AWS Certified Cloud Practitioner(CCP)
 ---
 
 #### Cloud Computing
